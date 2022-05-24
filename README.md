@@ -11,3 +11,5 @@ sudo cp $(pwd)/src/evdev.xml /usr/share/X11/xkb/rules/evdev.xml
 sudo reboot now # To make this keyboard work
 
 Once installed, you will find the transliteration keyboard in the 'Other' category of the keyboard utility.
+
+![transliteration_keyboard_layout](https://user-images.githubusercontent.com/42916283/169953751-ec83755c-d5c8-4999-b3ee-538915f84973.png)
