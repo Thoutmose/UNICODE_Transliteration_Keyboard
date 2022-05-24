@@ -1,0 +1,63 @@
+xkb_symbols "latin" {
+
+    include "level3(ralt_switch)"
+    
+    // First row
+    key <TLDE>  { [U00B2] };
+    key <AE01>	{ [U0026, 1] };
+    key <AE02>	{ [U00E9, 2, U007E] };
+    key <AE03>  { [quotedbl, 3, UA723, UA722] };
+    key <AE04>	{ [U0027, 4, U007B] };
+    key <AE05>	{ [U0028, 5, U005B] };
+    key <AE06>	{ [U002D, 6, U007C] };
+    key <AE07>	{ [U00E8, 7, U0060] };
+    key <AE08>	{ [U005F, 8, U005C] };
+    key <AE09>	{ [U00E7, 9, U005E] };
+    key <AE10>	{ [U00E0, 0, U0040, U00F8] };
+    key <AE11>	{ [U0029, U00B0, U005D] };
+    key <AE12>	{ [equal, U00D7, U007D] };
+    
+    // Second row
+    key <AD01>	{ [a, A, U021D, U021C] };
+    key <AD02>	{ [z, Z, U1E93, U1E92] };
+    key <AD03>	{ [e, E, U0113, U0112] };
+    key <AD04>	{ [r, R] };
+    key <AD05>	{ [t, T, U1E6D, U1E6C] };
+    key <AD06>	{ [y, Y, U1E6F, U1E6E] };
+    key <AD07>	{ [u, U, U016B, U016A] };
+    key <AD08>	{ [i, I, U012B, U012A] };
+    key <AD09>	{ [o, O, U014D, U014C] };
+    key <AD10>	{ [p, P] };
+    key <AD11>	{ [dead_circumflex, dead_diaeresis] };
+    key <AD12>	{ [U0024, U00A3, U00A4] };
+    
+    // Third row
+    key <AC01>	{ [q, Q, U0161, U0160] };
+    key <AC02>	{ [s, S, U1E61, U1E60] };
+    key <AC03>	{ [d, D, U1E0D, U1E0C] };
+    key <AC04>	{ [f, F, U1E0F, U1E0E] };
+    key <AC05>	{ [g, G, U0121, U0120] };
+    key <AC06>	{ [h, H, U1E25, U1E24] };
+    key <AC07>	{ [j, J, U01E7, U01E6] };
+    key <AC08>	{ [k, K, U1E33, U1E32] };
+    key <AC09>	{ [l, L] };
+    key <AC10>	{ [m, M] };
+    key <AC11>	{ [U00F9, U0025, U2E22] };
+    key <AC12>	{ [U002A, U00B5, U2E23] };
+    
+    
+    
+    // Fourth row
+    key <LSGT>  { [U003C, U003E] };
+    key <AB01>	{ [w, W, U27E8, U27E9] };
+    key <AB02>	{ [x, X, U1E2B, U1E2A] };
+    key <AB03>	{ [c, C, UA725, UA724] };
+    key <AB04>	{ [v, V, U017C, U017B] };
+    key <AB05>	{ [b, B, U1E96, U0048] };
+    key <AB06>	{ [n, N, U007E] };
+    key <AB07>	{ [U002C, U003F] };
+    key <AB08>	{ [U003B, U002E, U011F, U011E] };
+    key <AB09>	{ [U003A, U002F, U010D, U010C] };
+    key <AB10>	{ [U0021, U00A7, U2E17] };
+    
+};
