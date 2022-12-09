@@ -4,16 +4,22 @@ The configuration of this keyboard is based on the ones used by the French Insti
 
 INSTALL:
 
-. Automatic, using the bash install.sh script
+For Windows OS:
+  . Run setup.exe
 
-. Manual, using the command lines below:
 
-sudo cp $(pwd)/src/transliteration /usr/share/X11/xkb/symbols/
+For Unix OS:
 
-sudo cp $(pwd)/src/evdev.xml /usr/share/X11/xkb/rules/evdev.xml
+  . Automatic, using the bash install.sh script
 
-sudo reboot now
+  . Manual, using the command lines below:
 
-Once installed, you will find the transliteration keyboard in the 'Other' category of the keyboard utility.
+  sudo cp $(pwd)/src/transliteration /usr/share/X11/xkb/symbols/
+
+  sudo cp $(pwd)/src/evdev.xml /usr/share/X11/xkb/rules/evdev.xml
+
+  sudo reboot now
+
+  Once installed, you will find the transliteration keyboard in the 'Other' category of the keyboard utility.
 
 ![transliteration_keyboard_layout](https://user-images.githubusercontent.com/42916283/169953751-ec83755c-d5c8-4999-b3ee-538915f84973.png)
