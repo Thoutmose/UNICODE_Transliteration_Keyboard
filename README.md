@@ -1,6 +1,10 @@
 # UNICODE_Transliteration_Keyboard
 
-The configuration of this keyboard is based on the ones used by the French Institution of Oriental Archaeology (IFAO) (see https://www.ifao.egnet.net/publications/publier/outils-ed/polices/). It is only available for Mac OS and Windows. For the choice of UNICODE characters, see https://github.com/rosmord/mac_transliteration_keyboards
+The configuration of this keyboard is based on the ones used by the French Institution of Oriental Archaeology (IFAO) (see https://www.ifao.egnet.net/publications/publier/outils-ed/polices/), only available for Mac OS and Windows.  For the choice of UNICODE characters, see https://github.com/rosmord/mac_transliteration_keyboards
+
+This keyboard layout is compatible with all OS (Linux/Mac OS/Windows) with Unicode character management by default.
+
+By default, the keyboard layout is Fr (France) - AZERTY.
 
 INSTALL:
 
